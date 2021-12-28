@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rubrica</title>
+</head>
+<body>
+<h2>Rubrica telefonica</h2>
+
+<h3>inserisci nuovo contatto</h3>
+<form action="contatti.php" method="post">
+
+    inserisce il nome<input type="text" name="name"><br>
+
+    numero<input type="number" name="tell"><br>
+
+
+  <input type="submit" value="invia">
+    <input type="reset" value="annulla"><br>
+</form>
+
+<br> <h3>elimina</h3><br>
+
+    <form action="elimina.php" method="post">
+
+        inserisce il nome<input type="text" name="name"><br>
+
+
+
+
+        <input type="submit" value="invia">
+        <input type="reset" value="annulla"><br>
+
+
+
+    </form>
+
+
+<br> <h3>aggiorna</h3><br>
+
+<form action="aggiorna.php" method="post">
+
+    inserisce il nome<input type="text" name="name"><br>
+
+
+    numero<input type="text" name="tell"><br>
+
+
+    <input type="submit" value="invia">
+    <input type="reset" value="annulla"><br>
+
+
+
+
+</form><br>
+<h3>cerca contatti</h3>
+
+<form action="ricerca.php" method="post"><br>
+    inserisci il nome<input type="text" name="name"><br>
+
+    <input type="submit" value="invia">
+</form>
+
+
+<a href="dati.php"><h3>numeri salvati</h3></a>
+</body>
+</html>

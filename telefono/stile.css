@@ -1,0 +1,45 @@
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: #0000fd;
+}
+
+#menu {
+    font-size: 14px;
+    text-align: center;
+    background-color: #e4e4e4;
+    margin: 10px;
+}
+
+#content {
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    min-height: 380px;
+}
+
+#note {
+    font-size: 10px;
+    text-align: justify;
+}
+
+#foot {
+    font-size: 14px;
+    text-align: center;
+    background-color: #e4e4e4;
+    margin: 10px;
+}
